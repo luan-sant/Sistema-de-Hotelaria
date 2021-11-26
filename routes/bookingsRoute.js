@@ -20,7 +20,7 @@ router.post("/bookroom", async (req, res) => {
       const payment = await stripe.charges.create(
         {
           amount: totalAmount * 100,
-          currency: "R$",
+          currency: "BRL",
           customer: customer.id,
           receipt_email: token.email,
         },
