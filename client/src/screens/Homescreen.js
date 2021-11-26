@@ -97,7 +97,7 @@ function Homescreen() {
       <div className="container">
         <div className="row bs p-3 m-5">
           <div className="col-md-4">
-            <h1>SELECIONE UMA DATA</h1>
+            <h1>Selecione uma Data</h1>
             <RangePicker style={{ height: "38px" }}  onChange={filterByDate} format='DD-MM-YYYY' className='m-2'/>
           </div>
 
