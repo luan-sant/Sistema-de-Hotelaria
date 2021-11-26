@@ -16,7 +16,7 @@ export default function Registerscreen() {
 
       if(password!=cpassword)
       {
-          alert("passwords not matched")
+          alert("Senhas não coincidem.")
       }
       else{
           const user={
@@ -50,7 +50,7 @@ export default function Registerscreen() {
         <div className="col-md-5 mt-5 text-left shadow-lg p-3 mb-5 bg-white rounded">
 
           {loading && (<Loader/>)}
-          {success && (<Success success='Usário registrado com sucesso!' />)}
+          {success && (<Success success='Usuário registrado com sucesso!' />)}
           {error && (<Error error='Email já cadastrado.' />)}
 
           <h2 className="text-center m-2" style={{ fontSize: "35px" }}>
