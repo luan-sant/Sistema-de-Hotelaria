@@ -23,7 +23,8 @@ function App() {
          <Route path="/profile" component={Profilescreen}/>
          <Route path="/admin" component={Adminscreen}/>
       </BrowserRouter>
-    </div>
+
+=    </div>
   );
 }
 
